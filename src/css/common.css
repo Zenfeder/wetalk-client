@@ -1,0 +1,37 @@
+body{font-family: "微软雅黑", "Microsoft YaHei","Helvetica Neue",Helvetica,Arial, STXihei, "华文细黑", serif;}
+
+.login-box, .register-box {padding-top: 4%;}
+.login-box-body, .register-box-body{padding-top: 30px;}
+
+.layui-layer-btn0{background-color:rgb(96,92,168) !important;border-color: #604ca8 !important;}
+.layui-layer-btn0:hover, .layui-layer-btn0:active{background-color:rgb(85,82,153) !important;}
+
+.layui-layer-hui{
+	filter: alpha(opacity=80) !important;
+    background-color: rgba(0,0,0,.8) !important;
+}
+
+.no-padding-margin{margin:0 !important;padding: 0 !important;}
+.pointer{cursor: pointer;}
+
+.widget-user .widget-user-username{margin-top:-5px;}
+.widget-user .widget-user-desc{margin-top:-2px;}
+
+.direct-chat-primary .left>.direct-chat-text{margin-left: 20px !important;}
+.direct-chat-primary .right>.direct-chat-text{margin-right: 20px !important;}
+
+ /*jquery File Upload*/
+.fileinput-button {position: relative;overflow: hidden;display: inline-block;}
+.fileinput-button input {position: absolute;top: 0;right: 0;margin: 0;opacity: 0;-ms-filter: 'alpha(opacity=0)';font-size: 200px !important;direction: ltr;cursor: pointer;}
+/* Fixes for IE < 8 */
+@media screen\9 {.fileinput-button input {filter: alpha(opacity=0);font-size: 100%;height: 100%;}}
+ /*End jQuery File Upload*/
+
+ /*jquery autocomplete */
+.ac_results {padding: 0px;border: 1px solid #e5e9ef;background: #fff !important;overflow: hidden;z-index: 9999999 !important;}
+.ac_results ul {width: 100%;padding: 0;margin: 0;background: #fff !important;}
+.ac_results li {margin: 2px 0px;padding: 4px 5px;cursor: default;display: block;font-size: 12px;line-height: 16px;overflow: hidden;transition: text-indent 0.5s;}
+.ac_results li strong {color : #00A65A;}
+.ac_odd {background-color: #eee;}
+.ac_over {background-color: #367fa9;color: white;text-indent: 4px;}
+ /*End jquery autocomplete*/
